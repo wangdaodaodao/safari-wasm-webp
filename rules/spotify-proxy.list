@@ -1,0 +1,11 @@
+# NAME: Spotify 登录/地区检测 - 走代理
+# SOURCE: https://wangdaodaodao.me/posts/spotify-login-region-bypass/
+# USAGE: 小火箭远程规则，策略选择你的代理节点（注册地区）
+# UPDATED: 2026-09-24
+# 地区检测与身份校验域名，登录握手必须走代理
+DOMAIN,apresolve.spotify.com
+DOMAIN,login5.spotify.com
+DOMAIN,clienttoken.spotify.com
+DOMAIN-SUFFIX,ap.spotify.com
+# Spotify 非加密音频端口
+DST-PORT,4070

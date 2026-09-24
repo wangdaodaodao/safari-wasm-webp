@@ -1,0 +1,10 @@
+# NAME: Spotify 音频流 - 直连
+# SOURCE: https://wangdaodaodao.me/posts/spotify-login-region-bypass/
+# USAGE: 小火箭远程规则，策略选择 DIRECT（直连），省流量且播放快
+# UPDATED: 2026-09-24
+# 音乐音频流与 CDN 走直连
+DOMAIN-SUFFIX,audio-fa.scdn.co
+DOMAIN-SUFFIX,audio-ak.scdn.co
+DOMAIN-SUFFIX,audio-sp.scdn.co
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,scdn.co
